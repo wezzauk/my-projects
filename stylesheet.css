@@ -41,6 +41,19 @@ img {
   justify-self: center;
 }
 
+.instagram-footer {
+  display: grid;
+  justify-content: right;
+  padding-right: 50px;
+  padding: 50px;
+}
+
+.github-footer {
+  display: grid;
+  justify-content: left;
+  padding: 50px;
+}
+
 .main-container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -54,7 +67,6 @@ img {
 .main-section {
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
-
   justify-content: space-around;
 }
 
