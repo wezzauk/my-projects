@@ -1,3 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Montserrat, Arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+
+a:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
 body {
   background-image: url("images/me-coding.jpg");
   background-size: cover;
@@ -31,9 +54,6 @@ body {
   padding: 50px;
 }
 
-.main-text-background {
-
-}
 
 .coding-photo {
 
@@ -42,11 +62,10 @@ body {
 
 .coding-video {
   display: grid;
-
   height: 415px;
   background-color: green;
   border: solid 3px red;
-  justify-self: right;
+  justify-self: center;
 }
 
 .bottom-section {
