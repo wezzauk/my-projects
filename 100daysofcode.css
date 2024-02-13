@@ -4,6 +4,7 @@ nav {
   font-family: Montserrat, Arial;
   font-size: 18px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 a,
@@ -30,8 +31,6 @@ body {
   font-size: 18px;
 }
 
-
-
 .main-container {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -45,15 +44,11 @@ body {
 
 }
 
-
-
 .main-text {
-
   display: grid;
   background-color: rgba(5, 5, 5, 0.7);
-  padding: 50px;
+  padding: 20px 50px;
 }
-
 
 .coding-photo {
 
@@ -77,14 +72,22 @@ body {
 .java2Javascript {
   background-color: rgba(5, 5, 5, 0.7);
   display: grid;
-  padding: 100px;
+  padding: 50px 120px;
 }
 
 .balanceAcupunctureApp {
   background-color: rgba(5, 5, 5, 0.8);
   display: grid;
-  padding: 70px 100px;
+  padding: 0px 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: top;
+}
+
+.acupuncture-app-text {
+  margin-top: 20px;
+}
+
+.acupuncture-pic {
+  margin-top: 50px;
 }
