@@ -1,0 +1,71 @@
+body {
+  background-image: url("images/me-coding.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Montserrat, Arial;
+  font-size: 18px;
+}
+
+
+
+.main-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 400px;
+  margin: 50px;
+
+}
+
+
+
+.main-text {
+
+  display: grid;
+  background-color: rgba(5, 5, 5, 0.7);
+  padding: 50px;
+}
+
+.main-text-background {
+
+}
+
+.coding-photo {
+
+  height: 400px;
+}
+
+.coding-video {
+  display: grid;
+
+  height: 415px;
+  background-color: green;
+  border: solid 3px red;
+  justify-self: right;
+}
+
+.bottom-section {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.java2Javascript {
+  background-color: rgba(5, 5, 5, 0.7);
+  display: grid;
+  padding: 100px;
+}
+
+.balanceAcupunctureApp {
+  background-color: rgba(5, 5, 5, 0.8);
+  display: grid;
+  padding: 70px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: top;
+}
