@@ -91,6 +91,7 @@ img {
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
   justify-content: space-around;
+  margin-bottom: 75px;
 }
 
 .DaysOfCode,
@@ -98,7 +99,7 @@ img {
 .balanceacupuncture,
 .mandarin {
   display: grid;
-  margin: auto;
+  
   justify-content: center;
 }
 
