@@ -40,7 +40,7 @@ a:hover {
 
 .main-container {
   display: grid;
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 200px 1fr 150px;
 }
 
 .main-content {
@@ -76,5 +76,31 @@ a:hover {
 
 .left-col-background {
   position: relative;
-  height: 100vh;
+  height: 650px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  text-align: center;
+}
+
+.social-icons {
+  width: 30px;
+  height: 30px;
+  justify-self: center;
+}
+
+.instagram-footer {
+  display: grid;
+  justify-content: right;
+  padding-right: 50px;
+  padding: 50px;
+}
+
+.github-footer {
+  display: grid;
+  justify-content: left;
+  padding: 50px;
 }
