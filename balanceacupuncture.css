@@ -79,6 +79,24 @@ a:hover {
   height: 650px;
 }
 
+.app-button {
+  padding: 10px;
+  background-color: rgb(42, 117, 143);
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  justify-self: center;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.app-button:hover {
+  background-color: rgb(67, 143, 168);
+}
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
